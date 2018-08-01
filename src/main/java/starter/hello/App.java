@@ -205,7 +205,6 @@ package starter.hello;
 
 import org.jooby.Jooby;
 import org.jooby.json.Jackson;
-import org.jooby.whoops.Whoops;
 
 /**
  * Hello starter project.
@@ -216,8 +215,6 @@ public class App extends Jooby {
 
     /** Render JSON: */
     use(new Jackson());
-
-    use(new Whoops());
 
     /**
      * Say hello:

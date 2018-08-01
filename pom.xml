@@ -36,11 +36,6 @@
 
     <dependency>
       <groupId>org.jooby</groupId>
-      <artifactId>jooby-whoops</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.jooby</groupId>
       <artifactId>jooby-jackson</artifactId>
     </dependency>
 
